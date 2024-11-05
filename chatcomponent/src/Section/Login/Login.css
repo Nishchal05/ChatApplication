@@ -1,0 +1,38 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    color: white;
+    border: 2px solid white;
+}
+#SliderForLogin{
+   background-color: white;
+}
+.Logincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 7px;
+    border-radius: 12px;
+    border: 1px dotted white;
+}
+.Loginpage{
+    font-size: 2rem;
+}
+.email-password{
+    display: flex;
+    gap: 10px;
+}
+input{
+    padding: 3px;
+    border-radius: 4px;
+}
+button{
+    background: linear-gradient(to left,#00e786,#00e0);
+    padding: 4px;
+    border-radius: 12px;
+}

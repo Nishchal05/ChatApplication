@@ -1,0 +1,67 @@
+.Navbar{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;   
+    padding: 0 30px;
+    color: white;
+    backdrop-filter: blur(30px);
+}
+nav div{
+    display: flex;
+    gap: 20px;
+}
+.AppName{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.AppAuth{
+    font-size: 1rem;
+    border: 0.6px solid #00e676;
+    border-radius: 12px;
+    padding: 4px;
+    cursor: pointer;
+    display: flex;
+}
+.menu{
+    display: none;
+}
+.profilePic{
+    height: 20px;
+    width: 20px;
+    margin-top: 4px;
+}
+@media (max-width:889px) {
+    .AppAuth{
+        display: none;
+    }
+    #AppAuth{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        cursor: pointer;
+    }
+    .ResponsiveMenu{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-size: 1.4rem;
+    }
+    .ResponsiveNav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+    .LoginRegister{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}

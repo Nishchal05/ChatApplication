@@ -1,0 +1,25 @@
+.RegisterBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    color: white;
+    height: 90vh;
+    width: 100%;
+    padding: 9px;
+}
+.RegisterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border: 1px dotted white;
+    padding: 7px;
+    border-radius: 12px;
+    gap: 12px;
+}
+.RegisterHeading{
+    font-size: 1.6rem;
+}
